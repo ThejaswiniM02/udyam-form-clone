@@ -76,7 +76,23 @@ Open the site in your browser – you’ll see the familiar government-styled fo
 - Tailwind CSS for styling
 
 ---
+## Deployment (Live)
 
+**Backend API:**  
+Deployed on Railway at:  
+`https://udyam-form-clone-production-ec9b.up.railway.app`
+
+**Frontend:**  
+Deployed on Vercel at:  
+`https://udyam-form-clone-beryl.vercel.app/`  
+
+**Environment variable used in frontend:**  
+`NEXT_PUBLIC_API_URL=https://udyam-form-clone-production-ec9b.up.railway.app`
+
+---
+**Note:**  
+To connect the frontend to backend API, set the environment variable `NEXT_PUBLIC_API_URL` to your Railway backend domain (`https://udyam-form-clone-production-ec9b.up.railway.app`).
+---
 
 Made by Thejaswini M.  
 Based on Openbiz assignment specification, August 2025.  
