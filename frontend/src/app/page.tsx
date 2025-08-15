@@ -15,6 +15,7 @@ interface Schema {
 
 export default function Home() {
   const [schema, setSchema] = useState<Schema | null>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [formData, setFormData] = useState<Record<string, any>>({});
   const [activeStep, setActiveStep] = useState(1);
   const [status, setStatus] = useState("");
