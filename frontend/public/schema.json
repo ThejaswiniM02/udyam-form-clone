@@ -1,0 +1,36 @@
+{
+  "step1": [
+    {
+      "label": "Aadhaar Number",
+      "name": "aadhaar",
+      "type": "text",
+      "placeholder": "Enter 12-digit Aadhaar"
+    },
+    {
+      "label": "Mobile Number (Linked to Aadhaar)",
+      "name": "mobile",
+      "type": "text",
+      "placeholder": "Enter 10-digit mobile number"
+    },
+    {
+      "label": "OTP",
+      "name": "otp",
+      "type": "text",
+      "placeholder": "Enter OTP"
+    }
+  ],
+  "step2": [
+    {
+      "label": "PAN Number",
+      "name": "pan",
+      "type": "text",
+      "placeholder": "ABCDE1234F"
+    },
+    {
+      "label": "Business Name",
+      "name": "businessName",
+      "type": "text",
+      "placeholder": "Enter Business Name"
+    }
+  ]
+}
