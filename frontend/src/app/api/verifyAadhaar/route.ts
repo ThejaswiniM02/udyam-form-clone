@@ -1,3 +1,4 @@
+// src/app/api/verifyAadhaar/route.ts
 export async function POST(req: Request) {
   try {
     const body = await req.json();
@@ -15,12 +16,14 @@ export async function POST(req: Request) {
       headers: { "Content-Type": "application/json" },
     });
   } catch (error) {
+    console.error("Aadhaar verification error:", error);
     return new Response(
       JSON.stringify({ error: "Error calling Aadhaar verification" }),
       { status: 500, headers: { "Content-Type": "application/json" } }
     );
   }
 }
+
 
 
 
